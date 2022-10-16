@@ -47,6 +47,7 @@ a {
   align-items: inherit;
   justify-content: inherit;
   color: inherit;
+  text-decoration: inherit;
 }
 .btn:hover {
   opacity: 0.8;

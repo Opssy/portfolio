@@ -1,0 +1,47 @@
+.heroCon {
+    background-color: black;
+    margin: 12px 0;
+}
+.heroArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.heroLeft h4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.heroLeft h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+}
+.heroLeft p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+}
+.heroLeft .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.heroLeft .buttons .secondbtn {
+    background: #fe9990;
+    color: black;
+    text-decoration: underline;
+}

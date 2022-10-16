@@ -5,7 +5,7 @@
 }
 
 .headerCon {
-    box-shadow: 0px 2px 4px rgba(254, 153, 144, 0.1);
+    box-shadow: 0px 2px 4px rgba(254, 153, 144, 0.1) !important;
     width: 100%;
 }
 .headerArea {
