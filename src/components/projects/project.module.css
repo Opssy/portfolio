@@ -1,0 +1,16 @@
+.projectCon {
+    padding: 40px 0;
+}
+.projectArea {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.projectArea h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+}
