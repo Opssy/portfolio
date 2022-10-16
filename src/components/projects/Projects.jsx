@@ -19,9 +19,24 @@ const Projects = () => {
     },
   ];
   return (
-    <section id="Portfolio" className={`${ProjectStyle.projctCon}`}>
+    <section id="Portfolio" className={`${ProjectStyle.projectCon}`}>
       <div className="container">
-        <div className={`${ProjectStyle.projctArea}`}></div>
+        <div className={`${ProjectStyle.projectArea}`}>
+          <h2>My Designs</h2>
+          <div className={`${ProjectStyle.projects}`}>
+            {projectsData.map(({ img, title, details, link }, i) => (
+              <div className={`${ProjectStyle.project}`} key={i}>
+                <img src={img} alt={title} />
+                <div className={`${ProjectStyle.projectDetails}`}>
+                  <h2>
+                    <a href={`${link}`}>{title}</a>
+                  </h2>
+                  <p>{details}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
