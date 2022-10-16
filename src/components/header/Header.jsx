@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
+import Button from "../buttonComponents/Button";
 import HeaderStyle from "./header.module.css";
 
 const Header = () => {
@@ -10,13 +11,14 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} alt="logo" />
         </div>
-        <ul>
+        <ul className={`${HeaderStyle.links}`}>
           {links.map((link) => (
             <li key={link}>
               <a href={`#${link}`}>{link}</a>
             </li>
           ))}
         </ul>
+        <Button />
       </div>
     </div>
   );
