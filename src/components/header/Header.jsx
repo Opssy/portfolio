@@ -10,7 +10,13 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} alt="logo" />
         </div>
-        <ul></ul>
+        <ul>
+          {links.map((link) => (
+            <li key={link}>
+              <a href={`#${link}`}>{link}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
