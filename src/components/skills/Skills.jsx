@@ -11,6 +11,7 @@ import Invision2 from "../../assets/invision2.png";
 import Framer from "../../assets/framer.png";
 import Marvel from "../../assets/marvel.png";
 import Zeplin from "../../assets/zeplin.png";
+import SkilStyles from './skills.module.css';
 
 const Skills = () => {
   return <div>Skills</div>;
