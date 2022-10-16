@@ -5,6 +5,7 @@ import Linkedin from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
 import Behance from "../../assets/behance.png";
 import Dribble from "../../assets/dribble.png";
+import AboutStyle from "../aboutMe/about.module.css";
 
 const About = () => {
   const aboutLinks = [
