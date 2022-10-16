@@ -16,3 +16,12 @@
 }
 /* .logo {
 } */
+.headerArea .links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.headerArea .links li a {
+    color: var(--white);
+}
