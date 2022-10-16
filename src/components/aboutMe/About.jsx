@@ -57,12 +57,12 @@ const About = () => {
           </p>
           <div className={`${AboutStyle.Links}`}>
             {aboutLinks.map(({ img, link }, index) => (
-              <div key={index} className={`${AboutStyle.Link}`}>
-                <a href={`${link}`}>
+              <a href={`${link}`}>
+                <div key={index} className={`${AboutStyle.Link}`}>
                   <img src={img} alt={link} />
                   <p>{link}</p>
-                </a>
-              </div>
+                </div>
+              </a>
             ))}
           </div>
         </div>

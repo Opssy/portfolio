@@ -1,0 +1,34 @@
+.aboutCon {
+    padding: 40px 0;
+}
+.aboutArea {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.aboutArea h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+}
+.aboutArea p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+}
+.aboutArea .Links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.aboutArea .Links .Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
