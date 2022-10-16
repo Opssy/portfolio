@@ -1,14 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-   <div>
-    <header>
-      
-    </header>
-   </div>
-  );
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App
