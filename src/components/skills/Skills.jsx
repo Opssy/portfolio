@@ -11,10 +11,69 @@ import Invision2 from "../../assets/invision2.png";
 import Framer from "../../assets/framer.png";
 import Marvel from "../../assets/marvel.png";
 import Zeplin from "../../assets/zeplin.png";
-import SkilStyles from './skills.module.css';
+import SkilStyles from "./skills.module.css";
 
 const Skills = () => {
-  return <div>Skills</div>;
+  const skillsData = [
+    {
+      img: Figma,
+      name: "Figma",
+    },
+    {
+      img: Adobe,
+      name: "Adobe Xd",
+    },
+    {
+      img: Adobe2,
+      name: "Photoshop",
+    },
+    {
+      img: Adobe3,
+      name: "Adobe Illustrator",
+    },
+    {
+      img: Adobe4,
+      name: "Indesign",
+    },
+    {
+      img: Invision,
+      name: "Invision",
+    },
+    {
+      img: Invision2,
+      name: "Invision",
+    },
+    {
+      img: Framer,
+      name: "Framer",
+    },
+    {
+      img: Marvel,
+      name: "Marvel",
+    },
+    {
+      img: Adobe5,
+      name: "After Effects",
+    },
+    {
+      img: Adobe6,
+      name: "Incopy",
+    },
+    {
+      img: Zeplin,
+      name: "Zeplin",
+    },
+  ];
+
+  return (
+    <section id="Skills" className={`${SkilStyles.skillCon}`}>
+      <div className="container">
+        <div className={`${SkilStyles.skillArea}`}>
+          <h2>Skiils</h2>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Skills;
