@@ -74,6 +74,7 @@ const Skills = () => {
             {skillsData.map(({ img, name }, i) => (
               <div key={i} className={`${SkilStyles.skillsCard}`}>
                 <img src={img} alt={name} />
+                <h3>{name}</h3>
               </div>
             ))}
           </div>
