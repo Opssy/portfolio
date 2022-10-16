@@ -6,7 +6,7 @@ import HeaderStyle from "./header.module.css";
 const Header = () => {
   const links = ["About", "Skills", "Portfolio"];
   return (
-    <div className={`${HeaderStyle.headerCon}`}>
+    <header className={`${HeaderStyle.headerCon}`}>
       <div className="container">
         <div className={`${HeaderStyle.headerArea}`}>
           <div className={`${HeaderStyle.logo}`}>
@@ -26,7 +26,7 @@ const Header = () => {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

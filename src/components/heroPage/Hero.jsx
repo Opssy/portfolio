@@ -6,7 +6,7 @@ import Button from "../buttonComponents/Button";
 
 const Hero = () => {
   return (
-    <div className={`${HeroStyle.heroCon}`}>
+    <section className={`${HeroStyle.heroCon}`}>
       <div className="container">
         <div className={`${HeroStyle.heroArea}`}>
           <div className={`${HeroStyle.heroLeft}`}>
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

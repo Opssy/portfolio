@@ -34,7 +34,13 @@ const About = () => {
       link: "Dribble",
     },
   ];
-  return <div>About</div>;
+  return (
+    <section id="About" className={`${AboutStyle.aboutCon}`}>
+      <div className="container">
+        <div></div>
+      </div>
+    </section>
+  );
 };
 
 export default About;
