@@ -14,3 +14,25 @@
     font-size: 24px;
     line-height: 38px;
 }
+.skillArea .skillsObtain {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 2rem;
+    width: 100%;
+}
+.skillArea .skillsObtain .skillsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fe9990;
+    border-radius: 4px;
+}
+.skillArea .skillsObtain .skillsCard h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
