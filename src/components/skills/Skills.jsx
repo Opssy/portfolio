@@ -70,6 +70,13 @@ const Skills = () => {
       <div className="container">
         <div className={`${SkilStyles.skillArea}`}>
           <h2>Skiils</h2>
+          <div className={`${SkilStyles.skillsObtain}`}>
+            {skillsData.map(({ img, name }, i) => (
+              <div key={i} className={`${SkilStyles.skillsCard}`}>
+                <img src={img} alt={name} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
