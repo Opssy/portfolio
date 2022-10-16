@@ -25,3 +25,27 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  color: var(--white);
+  transition: all 500ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+a {
+  width: 100% !important;
+  height: 100% !important;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

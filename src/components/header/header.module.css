@@ -29,3 +29,6 @@
     line-height: 140%;
     letter-spacing: 0.02em;
 }
+.headerArea .button {
+    background-color: var(--btnBg);
+}
