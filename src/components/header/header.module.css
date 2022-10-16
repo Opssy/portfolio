@@ -24,4 +24,8 @@
 }
 .headerArea .links li a {
     color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
 }
