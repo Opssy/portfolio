@@ -29,9 +29,9 @@ const Header = () => {
           />
           <span className={`${HeaderStyle.toggle}`}>
             {mobile ? (
-              <FaTimes onClick={() => setMobile(false)} />
+              <FaTimes onClick={() => setMobile(false)} size={25} />
             ) : (
-              <FaBars onClick={() => setMobile(true)} />
+              <FaBars onClick={() => setMobile(true)} size={25} />
             )}
           </span>
         </div>
