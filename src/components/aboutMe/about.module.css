@@ -32,6 +32,11 @@
     align-items: center;
     gap: 0.5rem;
 }
+.aboutArea .Links .Link p {
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: 22px;
+}
 @media screen and (max-width: 768px) {
     .aboutArea .Links {
         width: 100%;
