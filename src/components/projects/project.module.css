@@ -51,3 +51,23 @@
 .projectArea .projects .project .projectDetails p {
     color: black;
 }
+@media screen and (max-width: 1320px) {
+    .projectArea .projects {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .projectArea .projects img,
+    .projectArea .projects .project .projectDetails {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .projectArea .projects {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .projectArea .projects img,
+    .projectArea .projects .project .projectDetails {
+        width: 100%;
+    }
+}
