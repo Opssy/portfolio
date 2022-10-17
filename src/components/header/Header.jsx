@@ -28,7 +28,9 @@ const Header = () => {
       <div className="container">
         <div className={`${HeaderStyle.headerArea}`}>
           <div className={`${HeaderStyle.logo}`}>
-            <img src={Logo} alt="logo" />
+            <a href="#home">
+              <img src={Logo} alt="logo" />
+            </a>
           </div>
           <ul className={`${HeaderStyle.links}`}>
             {links.map((link) => (
@@ -54,12 +56,13 @@ const Header = () => {
         <div className={`${HeaderStyle.mobileMenu}`}>
           <ul className={`${HeaderStyle.links} ${!mobile ? `top` : `noneT`}`}>
             {links.map((link) => (
-              <li key={link}>
+              <li key={link} onClick={() => setMobile(false)}>
                 <a href={`#${link}`}>{link}</a>
               </li>
             ))}
             <Button
               className={`${HeaderStyle.Mobilebutton}`}
+              onClick={() => setMobile(false)}
               text="Contact Me"
               link="contactme"
             />

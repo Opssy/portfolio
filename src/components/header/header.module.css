@@ -31,7 +31,7 @@
     line-height: 140%;
     letter-spacing: 0.02em;
 }
-.headerArea .button {
+.headerArea .button,.Mobilebutton {
     background-color: var(--btnBg);
     color: var(--black) !important;
 }
