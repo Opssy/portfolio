@@ -1,0 +1,23 @@
+.contactCon {
+    padding: 40px 0;
+}
+.contactArea {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contactArea h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+}
+.contactArea p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    opacity: 0.8;
+}

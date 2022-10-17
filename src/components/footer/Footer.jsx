@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <div className="container">
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: "16px",
+            lineHeight: "26px",
+            fontWeight: "600",
+          }}
+        >
+          Williams Temitope Oluwadamilare
+        </p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
