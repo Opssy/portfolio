@@ -1,3 +1,9 @@
-.footerCon{
+.footerCon {
     padding: 40px 0;
+}
+.footerCon p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
 }

@@ -5,16 +5,7 @@ const Footer = () => {
   return (
     <footer className={`${FooterStyle.footerCon}`}>
       <div className="container">
-        <p
-          style={{
-            textAlign: "center",
-            fontSize: "16px",
-            lineHeight: "26px",
-            fontWeight: "600",
-          }}
-        >
-          Williams Temitope Oluwadamilare
-        </p>
+        <p>Williams Temitope Oluwadamilare</p>
       </div>
     </footer>
   );
