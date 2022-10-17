@@ -32,3 +32,9 @@
     align-items: center;
     gap: 0.5rem;
 }
+@media screen and (max-width: 768px) {
+    .aboutArea .Links {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
