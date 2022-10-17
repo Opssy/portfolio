@@ -32,6 +32,7 @@ body {
   z-index: 50;
   width: 100%;
   transition: all 300ms ease;
+  background-color: #191717;
 }
 .btn {
   width: 200px;
