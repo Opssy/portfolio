@@ -7,7 +7,9 @@ const Contact = () => {
       <div className="container">
         <div className={`${ContactStyle.contactArea}`}>
           <h2>Get In Touch</h2>
-          <p>Shoot me an email</p>
+          <p>
+            <a href="#email">Shoot me an email</a>
+          </p>
         </div>
       </div>
     </section>
