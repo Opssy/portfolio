@@ -15,7 +15,7 @@ const Header = () => {
           <div className={`${HeaderStyle.logo}`}>
             <img src={Logo} alt="logo" />
           </div>
-          <ul className={`${HeaderStyle.links} ${mobile ? `left` : `none`}`}>
+          <ul className={`${HeaderStyle.links}`}>
             {links.map((link) => (
               <li key={link}>
                 <a href={`#${link}`}>{link}</a>
@@ -34,6 +34,21 @@ const Header = () => {
               <FaBars onClick={() => setMobile(true)} />
             )}
           </span>
+        </div>
+        {/* mobileMenu */}
+        <div className={`${HeaderStyle.mobileMenu}`}>
+          <ul className={`${HeaderStyle.links} ${!mobile ? `top` : `noneT`}`}>
+            {links.map((link) => (
+              <li key={link}>
+                <a href={`#${link}`}>{link}</a>
+              </li>
+            ))}
+            <Button
+              className={`${HeaderStyle.Mobilebutton}`}
+              text="Contact Me"
+              link="contactme"
+            />
+          </ul>
         </div>
       </div>
     </header>
