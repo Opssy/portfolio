@@ -36,3 +36,31 @@
     font-size: 16px;
     line-height: 26px;
 }
+@media screen and (max-width: 1220px) {
+    .skillArea .skillsObtain {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .skillArea .skillsObtain {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .skillArea .skillsObtain {
+        transform: translateX(50px);
+    }
+}
+@media screen and (max-width: 460px) {
+    .skillArea .skillsObtain {
+        transform: translateX(4%);
+    }
+}
+@media screen and (max-width: 417px) {
+    .skillArea .skillsObtain {
+        transform: none;
+        width: 47%;
+    }
+}
