@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px 0;
+    position: relative;
 }
 /* .logo {
 } */
@@ -32,4 +33,12 @@
 .headerArea .button {
     background-color: var(--btnBg);
     color: var(--black) !important;
+}
+@media screen and (max-width: 992px) {
+    .headerArea .links {
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+    }
 }
