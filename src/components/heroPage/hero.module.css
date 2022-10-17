@@ -45,3 +45,62 @@
     color: black;
     text-decoration: underline;
 }
+@media screen and (max-width: 1320px) {
+    .heroLeft {
+        flex: 1 1;
+    }
+    .heroLeft h1 {
+        font-size: 30px;
+    }
+    .heroLeft p {
+        font-size: 18px;
+    }
+    .heroRight img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .heroRight {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1138px) {
+    .heroLeft h1 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .heroLeft p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .heroArea {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+    .heroLeft .buttons {
+        flex-direction: column;
+    }
+    .heroLeft {
+        justify-content: center;
+        align-items: center;
+    }
+    .heroRight,
+    .heroLeft {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .heroLeft h1 {
+        font-size: 19px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .heroLeft p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
